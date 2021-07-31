@@ -23,7 +23,7 @@ public class Upcasting {
 	public static void main(String[] args) {
 		/*
 		 Samsung S= new Samsung();
-		 Mobile M= (Mobile)S;
+		 Mobile M= (Mobile)S;we did casting of S(sub class reference) to Mobile(Super class)
 		 */
 		Mobile M= new Samsung();
 		M.calling();
